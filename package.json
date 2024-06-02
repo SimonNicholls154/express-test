@@ -1,0 +1,21 @@
+{
+  "name": "complaints-api",
+  "version": "1.0.0",
+  "description": "Simple complaints api",
+  "main": "index.js",
+  "scripts": {
+    "server": "node src/server.js",
+    "test": "mocha src/tests"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chai": "^4.4.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mocha": "^10.4.0",
+    "supertest": "^7.0.0"
+  }
+}
